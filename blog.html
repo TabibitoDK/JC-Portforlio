@@ -43,7 +43,7 @@
     <h2 class="" style="font-size: 7vh ; margin-left: 4vw; margin-top:5vh;"><mark>Blog Posts</mark></h2>
     <div class="container-fluid" style="margin-top:10vh; padding-top:10vh; padding-bottom:40vh; background-color:white ;">
         <div class="row" style="position: relative;">
-            <div class="input-group input-group-lg mb-3" style="margin:auto;">
+            <div class="input-group input-group-lg mb-3 input-blogsearch-lg" style="margin:auto;">
                 <span class="input-group-text" id="searchblog">Search Blog</span>
                 <input type="text" class="form-control" placeholder="Blog post title" aria-label="Username" aria-describedby="searchblog">
                 <button class="btn btn-outline-secondary" type="button">Search</button>
@@ -57,7 +57,21 @@
                       <li><a class="dropdown-item" href="#">Z to A</a></li>
                     </ul>
                 </div>    
-            </div>        
+            </div>  
+            <div class="input-group input-group-sm mb-3 input-blogsearch-sm" style="margin:auto;">
+                <input type="text" class="form-control" placeholder="Blog post title" aria-label="Username" aria-describedby="searchblog">
+                <button class="btn btn-outline-secondary" type="button">Search</button>
+                <div class="dropdown" style="margin-left:5% ;">
+                    <button style="margin-top: 2vh;" class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Arranged By
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Time</a></li>
+                      <li><a class="dropdown-item" href="#">A to Z</a></li>
+                      <li><a class="dropdown-item" href="#">Z to A</a></li>
+                    </ul>
+                </div>    
+            </div>      
         </div>
         <div class="row" style="margin-top:3% ;">
             <div class="shadow p-3 mb-5 bg-body rounded blog-post" style="margin:auto;position:relative;">

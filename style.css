@@ -35,6 +35,10 @@ mark {
     display: none;
 }
 
+.input-blogsearch-sm {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .main-text-index {
         width: 80%;
@@ -48,6 +52,14 @@ mark {
     }
     .blog-post {
         width:90% ;
+    }
+
+    .input-blogsearch-lg {
+        display: none;
+    }
+
+    .input-blogsearch-sm {
+        display:flex;
     }
 }
 
