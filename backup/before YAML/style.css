@@ -1,0 +1,73 @@
+mark {
+    background-color: white;
+    color: rgb(255, 0, 0);
+    border-radius: 1vh;
+  }
+.title-mark {
+    background-color: rgba(0, 85, 255, 0);
+    color: rgb(255, 255, 255);
+}
+
+.main-text-index {
+    margin-left: 4vw; 
+    margin-top: 3vh; 
+    width: 40%; 
+}
+
+.card {
+    width: 20%; 
+    margin: 6%;
+}
+
+.input-group {
+    width:50% ; 
+}
+
+.blog-post {
+    width:60% ;
+}
+
+.nav-long {
+    display: block;
+}
+
+.nav-short {
+    display: none;
+}
+
+.input-blogsearch-sm {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .main-text-index {
+        width: 80%;
+    }
+    .card {
+        width: 90%; 
+        margin: 5%;
+    }
+    .input-group {
+        width:90% ; 
+    }
+    .blog-post {
+        width:90% ;
+    }
+
+    .input-blogsearch-lg {
+        display: none;
+    }
+
+    .input-blogsearch-sm {
+        display:flex;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-short {
+        display: block ;
+    }
+    .nav-long {
+        display: none;
+    }
+}

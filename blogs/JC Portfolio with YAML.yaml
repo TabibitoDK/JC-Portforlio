@@ -1,0 +1,26 @@
+title: JC Portfolio with YAML
+desc: 
+  created: 11-6-2022 20:20
+  edited: 11-6-2022 22:40
+  by: JC
+body:
+  - > 
+      JC portfolio website updated. YAML files is added to write, edit and store projects and blogs data easily. 
+      The website then renders the data with javascript.
+  - > 
+      According to wikipedia, YAML is a human-readable data-serialization language. It is commonly used for configuration files and 
+      in applications where data is being stored or transmitted. YAML targets many of the same communications 
+      applications as Extensible Markup Language (XML) but has a minimal syntax which intentionally differs 
+      from SGML. It uses Python-style indentation to indicate nesting.
+  - >
+      The use of YAML ease the website editor to edit and add new content. Traditionally, adding content in the html 
+      files is more complecated and time spending as html files included other data such as website layout and 
+      html tags that are not neccesary to be changed when editing website's content and when adding new contents. 
+      Thus, with the use of YAML as a language to store website content, html data such as tags are will not be 
+      ultered when editing website content and website content can be added and edited easily and fast.
+  - > 
+      References: <br> 
+      <a href="https://en.wikipedia.org/wiki/YAML">YAML from wikipedia.org</a>
+
+img: 
+  - ../images/JC Portfolio YAML img01.png

@@ -1,0 +1,18 @@
+title: Canvas Painter
+desc: A simple webapp designed for easy sketching and drawing in the browser. Created with only vanilla js
+about:
+  p: > 
+    This is a drawing app created by using vanilla javascript and canvas api. <br>
+    The app currently has a pen tool and an eraser tool. More tools will be added in future versions. <br>
+    The app is currently in bete verision and may not be stable for other web browser aside Microsoft Edge which is the browser used for testing <br>
+    Responsive layout for mobile devices is also not implemented yet <br>
+  img:
+    - ../images/canvas painter 01.jpg
+    - ../images/canvas painter 02.jpg
+    - ../images/canvas painter 03.jpg
+app:
+  - desc: Link to App
+    href: https://tabibitodk.github.io/Canvas-Painter/
+source:
+  - desc: github repository
+    href: https://github.com/TabibitoDK/Canvas-Painter

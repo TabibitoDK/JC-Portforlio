@@ -1,0 +1,44 @@
+Title: 
+  - Hi, I am a
+  - Self studied programming learner interested in computer graphics and web development
+  - This website is a place for me to blog my studies and projects in the field of programming
+
+
+Post:
+  - title: JC Portfolio Website Launch
+    href: blogs\blog templete.html?blog=JC Portfolio Website Launch
+    date: 2022-5-31
+    desc: JC portfolio website is officially launched today. This website will record all of my projects and studies in programming or computer science field
+  
+  - title: JC Portfolio with YAML
+    href: blogs\blog templete.html?blog=JC Portfolio with YAML
+    date: 2022-6-6
+    desc: JC Protfolio implemented YAML for easy storing and editing website data
+
+
+Projects: 
+  - title: My Portfolio
+    desc: This project is about creating a portfolio about me and logging my journey in coding
+    img: images/my portfolio 01.png
+    gif: images/my portfolio.gif
+    href: /projects/project_templete.html?project=My Portfolio
+    buttonID: portfolio-button
+    yamlData: 
+
+
+  - title: Canvas Painter
+    desc: A simple webapp designed for easy sketching and drawing in the browser. Created with only vanilla js
+    img: images/canvas painter 01.jpg
+    gif: images/canvas painter.gif
+    href: /projects/project_templete.html?project=Canvas Painter
+    buttonID: canvas-button
+    yamlData: 
+  
+
+  - title: Bio dictionary
+    desc: A dictionary made to ease my study in Biology. Currently contain all biology Form 5 special terms and its meaning
+    img: images/bio dictionary 01.png
+    gif: images/bio dictionary.gif
+    href: /projects/project_templete.html?project=Bio Dictionary
+    buttonID: bio-dict-button
+    yamlData: 

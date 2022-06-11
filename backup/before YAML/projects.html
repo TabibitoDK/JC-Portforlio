@@ -49,7 +49,26 @@
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div style="position: relative; width: 50vw ; height: 50vh; background-color:rgb(255, 255, 255); margin:auto; border-radius:2vw; border:0.1vh solid black">
+                            <h1 style="margin-left:6% ; margin-top: 6%; font-size: 5vh; width: 35%;">My Portfolio website</h3>
+                            <p style="margin-left:6% ; margin-top: 14%; font-size: 2.5vh; width: 80%;">This project is about creating a portfolio about me and logging my journey in coding <a href="projects/My Portfolio.html" class="btn stretched-link" style="text-align: right" >More Info</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div style="position: relative; width: 50vw ; height: 50vh; background-color:rgb(255, 255, 255); margin:auto; border-radius:2vw; border:0.1vh solid black">
+                        <h1 style="margin-left:6% ; margin-top: 6%; font-size: 5vh; width: 35%;">Canvas Painter</h3>
+                        <p style="margin-left:6% ; margin-top: 14%; font-size: 2.5vh; width: 80%;">A simple webapp designed for easy sketching and drawing in the browser. Created with only vanilla js <a href="projects/Canvas Painter.html" class="btn stretched-link" style="text-align: right" >More Info</a></p>
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="10000">
+                        <div style="position: relative; width: 50vw ; height: 50vh; background-color:rgb(255, 255, 255); margin:auto; border-radius:2vw; border:0.1vh solid black">
+                        <h1 style="margin-left:6% ; margin-top: 6%; font-size: 5vh; width: 35%;">Biology Dictionary</h3>
+                        <p style="margin-left:6% ; margin-top: 14%; font-size: 2.5vh; width: 80%;">A dictionary made to ease my study in Biology. Currently contain all biology Form 5 special terms and its meaning <a href="projects/Bio Dictionary.html" class="btn stretched-link" style="text-align: right" >More Info</a></p>
+                    </div>
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -63,8 +82,34 @@
         </div>
         <div class="container-fluid" style="margin-top:8vh ; padding-top:2vh; background-color:rgba(255, 80, 80, 0.875);">
             <h2 class="" style="margin-left:4vw ; margin-top: 4vh; font-size: 5vh; text-decoration: overline;"><mark class="title-mark">Latest</mark></h2>
-            <div class="row" id="projectDiv">
-            </div>
+            <div class="row">
+                <div class="card col-4">
+                    <img src="images/bio dictionary 01.png" class="card-img-top" alt="...">
+                    <img src="images/bio dictionary.gif" class="card-img-top" alt="..." style="display:none ;">
+                    <div class="card-body">
+                      <h5 class="card-title">Bio dictionary</h5>
+                      <p class="card-text">A dictionary made to ease my study in Biology. Currently contain all biology Form 5 special terms and its meaning</p>
+                      <a href="projects/Bio Dictionary.html" class="btn stretched-link" id="bio-dict-button">More Info</a>
+                    </div>
+                </div>
+                <div class="card col-4">
+                    <img src="images/canvas painter 01.jpg" class="card-img-top" alt="...">
+                    <img src="images/canvas painter.gif" class="card-img-top" alt="..." style="display:none ;">
+                    <div class="card-body">
+                        <h5 class="card-title">Canvas Painter</h5>
+                        <p class="card-text">A simple webapp designed for easy sketching and drawing in the browser. Created with only vanilla js</p>
+                        <a href="projects/Canvas Painter.html" class="btn stretched-link" id="canvas-button">More Info</a>
+                    </div>
+                </div>
+                <div class="card col-4">
+                    <img src="images/my portfolio 01.png" class="card-img-top" alt="...">
+                    <img src="images/my portfolio.gif" class="card-img-top" alt="..." style="display:none ;">
+                    <div class="card-body">
+                        <h5 class="card-title">My Portfolio</h5>
+                        <p class="card-text">This project is about creating a portfolio about me and logging my journey in coding</p>
+                        <a href="projects/My Portfolio.html" class="btn stretched-link" id="portfolio-button">More Info</a>
+                    </div>
+                </div>
             <!-- </div>
             <h2 class="" style="margin-left:4vw ; margin-top: 4vh; font-size: 5vh; text-decoration: overline;">Web Development</h2>
             <div class="row">
@@ -100,7 +145,6 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
     <script src="js/project.js"></script>
 </body>
 </html>

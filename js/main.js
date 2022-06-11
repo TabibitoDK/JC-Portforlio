@@ -43,11 +43,90 @@ function chart () {
 
 }
 
+
+function contentLoad () {
+    fetch('data.yaml').then(data => data.text()).then(text => jsyaml.load(text)).then(yaml => render(yaml));
+    function render (obj) {
+        title(obj);
+        blog(obj);
+        project(obj);
+        gif();
+    }
+    function title (obj) {
+        const title01 = document.getElementById('title01');
+        const title02 = document.getElementById('title02');
+        const title03 = document.getElementById('title03');
+        title01.innerHTML = `<mark>${obj.Title[0]}</mark>`;
+        title02.innerHTML = `<mark>${obj.Title[1]}</mark>`;
+        title03.innerHTML = `<mark>${obj.Title[2]}</mark>`;
+    }
+    function blog(obj) {
+        const blogDiv = document.getElementById('blogDiv');
+        let html = ``;
+        for (let i=obj.Post.length-1; i>=0; i--) {
+            let blog = obj.Post[i];
+            html += `
+            <div class="shadow p-3 mb-5 bg-body rounded blog-post" style="margin:auto;position:relative;">
+                <h2> ${blog.title}                 
+                    <a href="${blog.href}" class="btn stretched-link" style="text-align: right" >More Info</a>
+                </h2>
+                <p style="text-align:right ;">${blog.date}</p>
+                <p>${blog.desc}</p>
+            </div>
+            `
+        }
+        html += `<div style="position: relative ; text-align: end;"><a href="blog.html" class="fs-4" style="color:white ; text-decoration:none;">view all</a></div>`
+        blogDiv.innerHTML = html;
+    }
+    function project (obj) {
+        const projectDiv = document.getElementById('projectDiv');
+        let html = ``;
+        for (let i=obj.Projects.length-1; i>=0; i--) {
+            let project = obj.Projects[i];
+            html += `
+            <div class="card col-4">
+                <img src="${project.img}" class="card-img-top" alt="...">
+                <img src="${project.gif}" class="card-img-top" alt="..." style="display:none ;">
+                <div class="card-body">
+                    <h5 class="card-title">${project.title}</h5>
+                    <p class="card-text">${project.desc}</p>
+                    <a href="${project.href}" class="btn stretched-link" id="${project.buttonID}">More Info</a>
+                </div>
+            </div>
+            `
+        }
+        projectDiv.innerHTML = html;
+    }
+}
+
+
+
+function gif() {
+    let bioDictBtn = document.getElementById('bio-dict-button');
+    let canvasBtn = document.getElementById('canvas-button');
+    let portfolioBtn = document.getElementById('portfolio-button');
+    let btns = [];
+    btns.push(bioDictBtn, canvasBtn, portfolioBtn);
+
+    btns.forEach(element => {
+        element.onpointerenter = function () {
+            this.parentElement.parentElement.children[0].style.display = 'none';
+            this.parentElement.parentElement.children[1].style.display = 'flex';
+        }
+        element.onpointerout = function () {
+            this.parentElement.parentElement.children[0].style.display = 'flex';
+            this.parentElement.parentElement.children[1].style.display = 'none';
+        }
+    });
+}
+
+
+
+
 function rand (sth) {
     if (sth !== undefined) return Math.random() * sth;
     return Math.random() * window.innerWidth;
 }
-
 
 function setup () {
     frameRate(2);
@@ -82,24 +161,12 @@ function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
 }
 
-function main () {
-    chart();
-    let bioDictBtn = document.getElementById('bio-dict-button');
-    let canvasBtn = document.getElementById('canvas-button');
-    let portfolioBtn = document.getElementById('portfolio-button');
-    let btns = [];
-    btns.push(bioDictBtn, canvasBtn, portfolioBtn);
 
-    btns.forEach(element => {
-        element.onpointerenter = function () {
-            this.parentElement.parentElement.children[0].style.display = 'none';
-            this.parentElement.parentElement.children[1].style.display = 'flex';
-        }
-        element.onpointerout = function () {
-            this.parentElement.parentElement.children[0].style.display = 'flex';
-            this.parentElement.parentElement.children[1].style.display = 'none';
-        }
-    });
+
+
+function main () {
+    contentLoad();
+    chart();
 }
 
 window.onload = main;

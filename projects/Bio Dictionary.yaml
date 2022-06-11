@@ -1,0 +1,19 @@
+title: Bio Dictionary
+desc: A dictionary made to ease my study in Biology
+about:
+  p: > 
+    This is a dictionary app created to search definition of some special or scientific terms in Form 5 Biology textbook. <br>
+    The app reads data from a txt file containing all special terms and its meaning <br>
+    The specific data is then fetched and showed <br>
+  img:
+    - ../images/bio dictionary 01.png
+    - ../images/bio dictionary 02.png
+    - ../images/bio dictionary 03.png
+app:
+  - desc: Link to App
+    href: https://tabibitodk.github.io/Bio-DIctionary/
+source:
+  - desc: github repository
+    href: https://github.com/TabibitoDK/Bio-DIctionary
+  - desc: Biology special terms github repository
+    href: https://github.com/TabibitoDK/StudyApp/tree/main/data/biology%20enskicopedia

@@ -1,0 +1,19 @@
+title: My Portfolio
+desc: This project is about creating a portfolio about me and logging my journey in coding
+about:
+  p: > 
+    This is a website created to introduce about myself and some of the projects that I had done recently <br>
+    This website is initally designed and created in conjunction to the onew week static website creation challange organised by Forward School <br>
+    This website uses bootstrap to create and design beautiful layout and UI <br>
+    The chart js library is used also to show the chart in the bottom of the home page <br>
+    p5 js is also used for creating some cool interactions <br>
+  img:
+    - ../images/my portfolio 01.png
+    - ../images/my portfolio 02.png
+    - ../images/my portfolio 03.png
+app:
+  - desc: Main page of website
+    href: ../index.html
+source:
+  - desc: github repository
+    href: https://github.com/TabibitoDK/JC-Portforlio

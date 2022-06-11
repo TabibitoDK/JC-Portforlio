@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2" href="../index.html">JC Portforlio</a>
+            <div class=" navbar-collapse justify-content-end nav-long">
+                <span class="nav-item mx-5">
+                    <a class="nav-link fs-4" href="../index.html">Home</a>
+                </span>
+                <span class="nav-item mx-5">
+                    <a class="nav-link fs-4" href="../blog.html">My Blog</a>               
+                </span>
+                <span class="nav-item mx-5">
+                    <a class="nav-link fs-4" href="../projects.html">My Projects</a>               
+                </span>
+            </div>
+            <div class="nav-short">
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Menu</button>
+
+                <div style="width: 50%;" class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title fs-1" id="offcanvasScrollingLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <a class="btn" href="../index.html">Home</a> <br>
+                    <a class="btn" href="../blog.html">My Blogs</a> <br>
+                    <a class="btn" href="../projects.html">My Projects</a> <br>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row" style="width:95% ;">
+            <h2 class="" style="font-size: 4vh ; margin-left: 4vw; margin-top:5vh;" id="title"></h2>
+            <p style="font-size:3vh ;margin-left: 4vw;" id="desc"></p>
+        </div>
+        <hr>
+        <div class="row" style="position: relative ;">
+            <div class="col-12" style="margin:auto ; width:90%;">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active fs-2" id="home-tab" data-bs-toggle="tab" data-bs-target="#intro-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Introduction</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fs-2" id="profile-tab" data-bs-toggle="tab" data-bs-target="#app-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Website</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fs-2" id="contact-tab" data-bs-toggle="tab" data-bs-target="#source-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Source files</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active mt-5 ms-3" id="intro-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <h2>About</h2>
+                        <p class=" fs-2" id="about-p">
+                        </p>
+                        <h2 style="margin-top:5vh ;">Screenshots</h2>
+                        <div id="imgCarousel">
+                            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner" id="carousel">
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                    </div>
+                    <div style="height:70vh ;" class="tab-pane fade mt-5 ms-3" id="app-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <h2></h2>
+                        <a class="fs-2" href="#" id="app-href">Main page of website</a>
+                    </div>
+                    <div style="height:70vh ;" class="tab-pane fade mt-5 ms-3" id="source-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                        <h2></h2>
+                        <a class="fs-2" href="#" id="source-href">github repository</a>
+                    </div>
+                </div> 
+            </div>             
+        </div>
+    </div>
+    <footer>
+        <div style="position: relative; background-color: black ; height:5vh; text-align: center; padding-bottom: 6vh;">
+
+            <p style="padding-top: 3vh; color:aqua; font-size:1.5vh;">Copyright &#9400; 2022 jcteoh88@gmail.com All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script src="../projects/dataLoader.js"></script>
+</body>
+</html>
