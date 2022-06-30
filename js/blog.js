@@ -2,13 +2,13 @@
 function contentLoad () {
     fetch('data.yaml').then(data => data.text()).then(text => jsyaml.load(text)).then(yaml => render(yaml));
     function render (obj) {
-        blog(obj);
+        blog(obj.Post, 0);
     }
-    function blog(obj) {
+    function blog(postArray, arrangement) {
         const blogDiv = document.getElementById('blogDiv');
         let html = ``;
-        for (let i=obj.Post.length-1; i>=0; i--) {
-            let blog = obj.Post[i];
+        for (let i=postArray.length-1; i>=0; i--) {
+            let blog = postArray[i];
             html += `
             <div class="shadow p-3 mb-5 bg-body rounded blog-post" style="margin:auto;position:relative;">
                 <h2> ${blog.title}                 

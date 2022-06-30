@@ -15,6 +15,11 @@ Post:
     date: 2022-6-6
     desc: JC Protfolio implemented YAML for easy storing and editing website data
 
+  - title: Canvas Painter Update and new projects working on
+    href: blogs\blog templete.html?blog=Canvas Painter Beta Ver0p2 Update
+    date: 2022-6-24
+    desc: Canvas Painter Beta Ver0.2 update including button function implementation & saving and loading function implementation
+
 
 Projects: 
   - title: My Portfolio
