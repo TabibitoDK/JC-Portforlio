@@ -8,7 +8,7 @@ function main () {
     function render (obj) {
         const title = document.getElementById('title');
         title.innerHTML = obj.title;
-        descDisp(obj);
+        // descDisp(obj);
         bodyDisp(obj);
     }
     function descDisp (obj) {

@@ -1,0 +1,17 @@
+title: 生物学辞書（アプリバージョン）
+desc: 生物の勉強を楽にするため作ったアプリのAndroid携帯電話バージョン
+about:
+  p: > 
+    このアプリは、Form 5 Biologyの教科書に載っている特別な用語や科学的な用語の定義を検索するために作成された辞書アプリです。 <br>
+    このアプリは、すべての特別な用語とその意味を含むtxtファイルからデータを読み込みます。<br>
+    そして、特定のデータが取得され、表示されます。<br>
+    <a href="https://drive.google.com/file/d/15I-Qs50W7GSD48bntaAaOyTkfaXUf0wB/view?usp=drive_link">例はこちら</a> <br>
+  img:
+    - ../images/bio ensiclopedia app ver img 91.png
+    - ../images/bio ensiclopedia app ver img 92.png
+app:
+  - desc: サイト
+    href: https://github.com/TabibitoDK/Biology-encyclopedia
+source:
+  - desc: Github Repository
+    href: https://github.com/TabibitoDK/Biology-encyclopedia

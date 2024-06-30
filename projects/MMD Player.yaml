@@ -1,0 +1,17 @@
+title: MMD Player
+desc: MMDのアニメーションを再生するウェブアプリ
+about:
+  p: > 
+    UNITY3Dで、MMDのアニメーションを再生した。<br>
+    <a href="https://drive.google.com/file/d/1vQ-gXrmd-jvPoz8jMQdM46QtVmkxVLmN/view?usp=drive_link">例はこちら</a> <br>
+    また、そのうえ、ウェブブラウザーで再生したいため、THREE.js というライブラリーを使って、MMDのアニメーションを再生した。また、字幕の機能を作った。
+    <a href="https://drive.google.com/file/d/1RzpKQERM4nPRLeHSGTHhdpvNJWpkoQh-/view?usp=drive_link">例はこちら</a> <br>
+  img:
+    - ../images/mmd web 01.png
+    - ../images/mmd web 02.png
+app:
+  - desc: サイトないです
+    href: https://drive.google.com/file/d/1RzpKQERM4nPRLeHSGTHhdpvNJWpkoQh-/view?usp=drive_link
+source:
+  - desc: Not shown due to copyright issues
+    href: #

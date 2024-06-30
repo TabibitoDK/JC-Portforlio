@@ -1,33 +1,25 @@
-title: Canvas Painter Update and new projects working on
-desc: 
+title: カンバスペンターの機能更新
+desc:
   created: 2022-6-24 12:58
   edited: 2022-6-30 21:50
   by: JC
 body:
   - > 
-      <h2>Canvas Painter Beta Ver0.2 Update</h2>
-  - > 
-      Over the past 2 weeks, I had focused on implementing the button functions of painter app. I would like the app to have a function for users to save data of the strokes, colors and load 
-      them back to the app. I would also like to add a clear canvas button for user to clear the entire canvas easily and also an undo and redo function. The undo, redo and clear button is 
-      implemented sucessfullly but I thought a lot on ways to save the data.
+      この2週間、ペインターアプリのボタン機能の実装に集中していました。ユーザーがストロークや色のデータを保存して、アプリにロードできる機能が欲しい。
+      アプリに戻せるようにしたい。また、キャンバス全体を簡単にクリアできるキャンバスクリアボタンや、アンドゥ、リドゥ機能も追加したい。アンドゥ、リドゥ、クリアボタンはうまく実装されています。
+      うまく実装できましたが、データを保存する方法についていろいろ考えました。
   - >
-      Firstly, I simply save the file as json but later I think that this method is kind'a boring and not special. I then decided to save my data embeded inside an image so user can download 
-      the data with the image and load the image again to the app to add or edit the drawing. After some research, I found out saving the string as byte array and append it on the end of the 
-      image dataURl byte array is the simplest way of achieving data saving in an image. Thus, I implemented the image saving function with this method.
+      最初は単純にjsonで保存していたのですが、後になってこの方法はつまらないし、特別な方法でもないと思いました。そこで、データを画像に埋め込んで保存することにした。
+      画像と一緒にデータをダウンロードし、その画像をアプリに再度読み込ませることで、図面を追加したり編集したりすることができます。いろいろ調べた結果、文字列をバイト配列として保存し、それを 
+      バイト配列の末尾に追加するのが、画像データの保存を実現する最も簡単な方法であることがわかった。そこで、この方法で画像の保存機能を実装した。
   - > 
-      After some days, I was testing with the image saving and loading function and I realised a problem in saved image with data. As a result, some of the image opening programs does not 
-      recognise the image with data as the data is appended on the end of the image data. I then started searching other ways to do data saving in images on the Internet. After some searching, 
-      I saw a youtube video by Computerphile about image Steganography. <br>
+      数日後、画像の保存と読み込み機能をテストしていたところ、データ付きで保存された画像に問題があることに気づきました。その結果、一部の画像を開くプログラムでは、画像データの末尾にデータが付加されているため、データ付き画像を認識できません。
+      画像データの末尾にデータが付加されているため、データ付き画像を認識しないのです。そこで、画像にデータを保存する他の方法をインターネットで探し始めました。検索した結果 <br>
       <a href="https://www.youtube.com/watch?v=TWEXCYQKyDc">Secrets Hidden in Images (Steganography) - Computerphile</a> <br>
-      The method is to put data on the lowest 2 bit of the bytes representing colors on the image. Thus, I updated the saving function using this method. However, image with the old method can 
-      also be opened with some tweaks (adding a new line 'DATA' on the end of the image data).
-  - > 
-      <h2>New project: Raylib C++</h2>
-  - > 
-      Recently, I has started a project about game engine and game development using Raylib library in c++. My aim is to create a some kind'a library to make 2d games and animations with Raylib. 
-      The project is still in very early phase and I am currently learing and doing researching about it. I would like to create an ECS system to handle game objects, item, and game logic while 
-      using the Raylib library to render the game objects in opengl. I will upload the project onto my github when I done researching and create a demo game using it. 
-
+      による画像ステガノグラフィーのユーチューブ・ビデオを見た。
+      その方法は、画像の色を表すバイトの最下位2ビットにデータを置くというものだ。そこで、この方法で保存機能をアップデートした。ただし、旧方式の画像も 
+      画像データの末尾に'DATA'という行を追加する）。
+  - >
 
 img: 
   - ../images/canvas painter Update01_ 01.png

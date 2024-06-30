@@ -1,16 +1,16 @@
-title: Bio Dictionary
-desc: A dictionary made to ease my study in Biology
+title: 生物学辞書
+desc: 生物の勉強を楽にするため作ったアプリ
 about:
   p: > 
-    This is a dictionary app created to search definition of some special or scientific terms in Form 5 Biology textbook. <br>
-    The app reads data from a txt file containing all special terms and its meaning <br>
-    The specific data is then fetched and showed <br>
+    このアプリは、Form 5 Biologyの教科書に載っている特別な用語や科学的な用語の定義を検索するために作成された辞書アプリです。 <br>
+    このアプリは、すべての特別な用語とその意味を含むtxtファイルからデータを読み込みます。<br>
+    そして、特定のデータが取得され、表示されます。<br>
   img:
     - ../images/bio dictionary 01.png
     - ../images/bio dictionary 02.png
     - ../images/bio dictionary 03.png
 app:
-  - desc: Link to App
+  - desc: アプリのリンク
     href: https://tabibitodk.github.io/Bio-DIctionary/
 source:
   - desc: github repository

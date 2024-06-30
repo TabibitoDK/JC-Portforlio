@@ -1,29 +1,34 @@
 Title: 
-  - Hi, I am a
-  - Self studied programming learner interested in computer graphics and web development
-  - This website is a place for me to blog my studies and projects in the field of programming
+  - こんにちは、
+  - コンピューターグラフィックスやウェブ開発に興味を持つプログラマーです。
+  - このサイトで作品をシェアする。どうぞよろしくお願いします。
 
 
 Post:
-  - title: JC Portfolio Website Launch
+  - title: サイト作成
     href: blogs\blog templete.html?blog=JC Portfolio Website Launch
-    date: 2022-5-31
-    desc: JC portfolio website is officially launched today. This website will record all of my projects and studies in programming or computer science field
+    date: 　
+    desc: このポートフォリオサイトが本日正式にオープンしました。このウェブサイトは、プログラミングやコンピュータサイエンスの分野における私のプロジェクトや勉強のすべてを記録していきます。
   
-  - title: JC Portfolio with YAML
+  - title: サイト2.0 VER
     href: blogs\blog templete.html?blog=JC Portfolio with YAML
-    date: 2022-6-6
-    desc: JC Protfolio implemented YAML for easy storing and editing website data
+    date: 　
+    desc: このポートフォリオは、ウェブサイトのデータを簡単に保存・編集できるYAMLを実装しました。
 
-  - title: Canvas Painter Update and new projects working on
+  - title: Canvas Painterの更新
     href: blogs\blog templete.html?blog=Canvas Painter Beta Ver0p2 Update
-    date: 2022-6-24
-    desc: Canvas Painter Beta Ver0.2 update including button function implementation & saving and loading function implementation
+    date: 　
+    desc: Canvas Painter Beta Ver0.2アップデート（ボタン機能実装、保存・読み込み機能実装など
+
+  - title: プロジェクトの更新
+    href: blogs\blog templete.html?blog=Add Projects
+    date: 　
+    desc: 色々なプロジェクトをアップロードした。
 
 
 Projects: 
-  - title: My Portfolio
-    desc: This project is about creating a portfolio about me and logging my journey in coding
+  - title: マイポートフォリオ
+    desc: このプロジェクトは、私についてのポートフォリオを作成し、私のコーディングの旅を記録することです。
     img: images/my portfolio 01.png
     gif: images/my portfolio.gif
     href: /projects/project_templete.html?project=My Portfolio
@@ -31,8 +36,8 @@ Projects:
     yamlData: 
 
 
-  - title: Canvas Painter
-    desc: A simple webapp designed for easy sketching and drawing in the browser. Created with only vanilla js
+  - title: カンバスペンター
+    desc: ブラウザ上で簡単にスケッチやドローイングができるようにデザインされたシンプルなウェブアプリ。バニラjsのみで作成
     img: images/canvas painter 01.jpg
     gif: images/canvas painter.gif
     href: /projects/project_templete.html?project=Canvas Painter
@@ -40,10 +45,62 @@ Projects:
     yamlData: 
   
 
-  - title: Bio dictionary
-    desc: A dictionary made to ease my study in Biology. Currently contain all biology Form 5 special terms and its meaning
+  - title: 生物学辞書
+    desc: 生物の勉強を楽にするため作ったアプリ
     img: images/bio dictionary 01.png
     gif: images/bio dictionary.gif
     href: /projects/project_templete.html?project=Bio Dictionary
     buttonID: bio-dict-button
+    yamlData: 
+
+  - title: Heightmap
+    desc: Heightmapを使って、モデルの表面の高さを示す。
+    img: images/height map img01.png
+    gif: images/my portfolio.gif
+    href: /projects/project_templete.html?project=Heightmap
+    buttonID: portfolio-button
+    yamlData: 
+
+  - title: Temperature Mapper
+    desc: 図の温度を示すアプリ
+    img: images/temp mapper img01.png
+    gif: images/my portfolio.gif
+    href: /projects/project_templete.html?project=Temperature Mapper
+    buttonID: portfolio-button
+    yamlData: 
+
+
+  - title: フーリエ変換二より音楽の芸術
+    desc: フーリエ変換で、色々な音楽による芸術を作った
+    img: images/fourier trnasform visualiser 01.png
+    gif: images/my portfolio.gif
+    href: /projects/project_templete.html?project=Fourier Transform Visualiser
+    buttonID: portfolio-button
+    yamlData: 
+
+
+  - title: HoloPop
+    desc: pop catというアプリのHololiveバージョン
+    img: images/unity popHololive 01.png
+    gif: images/my portfolio.gif
+    href: /projects/project_templete.html?project=HoloPop
+    buttonID: portfolio-button
+    yamlData: 
+
+
+  - title: 生物学辞書（アプリバージョン）
+    desc: 生物の勉強を楽にするため作ったアプリのAndroid携帯電話バージョン
+    img: images/bio ensiclopedia app ver img 91.png
+    gif: images/my portfolio.gif
+    href: /projects/project_templete.html?project=Bio Ensiclopedia app version
+    buttonID: portfolio-button
+    yamlData: 
+
+
+  - title: MMD Player
+    desc: MMDのアニメーションを再生するウェブアプリ
+    img: images/mmd web 01.png
+    gif: images/my portfolio.gif
+    href: /projects/project_templete.html?project=MMD Player
+    buttonID: portfolio-button
     yamlData: 

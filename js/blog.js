@@ -12,7 +12,7 @@ function contentLoad () {
             html += `
             <div class="shadow p-3 mb-5 bg-body rounded blog-post" style="margin:auto;position:relative;">
                 <h2> ${blog.title}                 
-                    <a href="${blog.href}" class="btn stretched-link" style="text-align: right" >More Info</a>
+                    <a href="${blog.href}" class="btn stretched-link" style="text-align: right" >詳細</a>
                 </h2>
                 <p style="text-align:right ;">${blog.date}</p>
                 <p>${blog.desc}</p>

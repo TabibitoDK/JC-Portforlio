@@ -16,7 +16,7 @@ function contentLoad () {
             <div class="carousel-item ${state}" data-bs-interval="10000">
                 <div style="position: relative; width: 50vw ; height: 50vh; background-color:rgb(255, 255, 255); margin:auto; border-radius:2vw; border:0.1vh solid black">
                     <h1 style="margin-left:6% ; margin-top: 6%; font-size: 5vh; width: 35%;">${project.title}</h3>
-                    <p style="margin-left:6% ; margin-top: 14%; font-size: 2.5vh; width: 80%;">${project.desc}<a href="${project.href}" class="btn stretched-link" style="text-align: right" >More Info</a>
+                    <p style="margin-left:6% ; margin-top: 14%; font-size: 2.5vh; width: 80%;">${project.desc}<a href="${project.href}" class="btn stretched-link" style="text-align: right" >詳細</a>
                     </p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ function contentLoad () {
                 <div class="card-body">
                     <h5 class="card-title">${project.title}</h5>
                     <p class="card-text">${project.desc}</p>
-                    <a href="${project.href}" class="btn stretched-link" id="${project.buttonID}">More Info</a>
+                    <a href="${project.href}" class="btn stretched-link" id="${project.buttonID}">詳細</a>
                 </div>
             </div>
             `

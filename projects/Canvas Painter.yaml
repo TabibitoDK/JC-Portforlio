@@ -1,11 +1,11 @@
-title: Canvas Painter
-desc: A simple webapp designed for easy sketching and drawing in the browser. Created with only vanilla js
+title: カンバスペンター
+desc: ブラウザ上で簡単にスケッチやドローイングができるようにデザインされたシンプルなウェブアプリ。バニラjsのみで作成
 about:
   p: > 
-    This is a drawing app created by using vanilla javascript and canvas api. <br>
-    The app currently has a pen tool and an eraser tool. More tools will be added in future versions. <br>
-    The app is currently in bete verision and may not be stable for other web browser aside Microsoft Edge which is the browser used for testing <br>
-    Responsive layout for mobile devices is also not implemented yet <br>
+    このアプリはvanilla javascriptとcanvas apiを使って作成したお絵かきアプリです。 <br>
+    現在、ペンツールと消しゴムツールがあります。 今後のバージョンアップでさらに多くのツールが追加される予定です。 <br>
+    このアプリは現在ベータ版であり、テストに使用したMicrosoft Edge以外のウェブブラウザでは安定しない可能性があります。<br>
+    モバイルデバイス用のレスポンシブレイアウトもまだ実装されていません。<br>
   img:
     - ../images/canvas painter 01.jpg
     - ../images/canvas painter 02.jpg

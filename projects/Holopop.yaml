@@ -1,0 +1,14 @@
+title: HoloPop
+desc: pop catというアプリのHololiveバージョン
+about:
+  p: > 
+    <a href="https://drive.google.com/file/d/153Ynw3vCaFIi_2VCxOznJZgvTmIalDhF/view?usp=drive_link">例はこちら</a> <br>
+  img:
+    - ../images/unity popHololive 01.png
+    - ../images/unity popHololive 02.png
+app:
+  - desc: サイトないです
+    href: https://drive.google.com/file/d/153Ynw3vCaFIi_2VCxOznJZgvTmIalDhF/view?usp=drive_link
+source:
+  - desc: Github Repository
+    href: https://github.com/TabibitoDK/HoloPop

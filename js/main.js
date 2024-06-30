@@ -7,7 +7,7 @@ function chart () {
             labels: ['HTML', 'CSS', 'Javascript', 'C#', 'C++', 'Python'],
             datasets: [{
                 label: 'My Current Skill level',
-                data: [0.5, 0.5, 1, 1, 0.5, 1],
+                data: [4, 2, 5, 3, 3, 3],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
@@ -63,25 +63,25 @@ function contentLoad () {
     function blog(obj) {
         const blogDiv = document.getElementById('blogDiv');
         let html = ``;
-        for (let i=obj.Post.length-1; i>=0; i--) {
+        for (let i=obj.Post.length-1; i>obj.Post.length-4; i--) {
             let blog = obj.Post[i];
             html += `
             <div class="shadow p-3 mb-5 bg-body rounded blog-post" style="margin:auto;position:relative;">
                 <h2> ${blog.title}                 
-                    <a href="${blog.href}" class="btn stretched-link" style="text-align: right" >More Info</a>
+                    <a href="${blog.href}" class="btn stretched-link" style="text-align: right" >詳細</a>
                 </h2>
                 <p style="text-align:right ;">${blog.date}</p>
                 <p>${blog.desc}</p>
             </div>
             `
         }
-        html += `<div style="position: relative ; text-align: end;"><a href="blog.html" class="fs-4" style="color:white ; text-decoration:none;">view all</a></div>`
+        html += `<div style="position: relative ; text-align: end;"><a href="blog.html" class="fs-4" style="color:white ; text-decoration:none;">すべて</a></div>`
         blogDiv.innerHTML = html;
     }
     function project (obj) {
         const projectDiv = document.getElementById('projectDiv');
         let html = ``;
-        for (let i=obj.Projects.length-1; i>=0; i--) {
+        for (let i=0; i<3; i++) {
             let project = obj.Projects[i];
             html += `
             <div class="card col-4">
@@ -90,7 +90,7 @@ function contentLoad () {
                 <div class="card-body">
                     <h5 class="card-title">${project.title}</h5>
                     <p class="card-text">${project.desc}</p>
-                    <a href="${project.href}" class="btn stretched-link" id="${project.buttonID}">More Info</a>
+                    <a href="${project.href}" class="btn stretched-link" id="${project.buttonID}">詳細</a>
                 </div>
             </div>
             `

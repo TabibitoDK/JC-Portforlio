@@ -1,0 +1,16 @@
+title: フーリエ変換二より音楽の芸術
+desc: フーリエ変換で、色々な音楽による芸術を作った
+about:
+  p: > 
+    音楽とは、色々なサインはで作られたのである。そのサインは達を、別々に別れるのはフーリエ変換である。このプログラムでは、
+    フーリエ変換による周波数データを使って、色々な音楽の動きを表す芸術を作った。
+    <a href="https://drive.google.com/file/d/1raVLYtoeLRbkJojfrUY30e-izpSw3Qi8/view?usp=drive_link">童画はこちら</a> <br>
+  img:
+    - ../images/fourier trnasform visualiser 01.png
+    - ../images/fourier trnasform visualiser 02.png
+app:
+  - desc: サイトないです
+    href: https://drive.google.com/file/d/1raVLYtoeLRbkJojfrUY30e-izpSw3Qi8/view?usp=drive_link
+source:
+  - desc: Github Repository
+    href: https://github.com/TabibitoDK/FourierTransformMusicVisualiser

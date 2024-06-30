@@ -13,7 +13,7 @@ function main () {
         const aboutP = document.getElementById('about-p');
         aboutP.innerHTML = obj.about.p;
         imgCarDisp (obj.about.img);
-        appDisp(obj.app);
+        // appDisp(obj.app);
         sourceDisp(obj.source);
     }
     function imgCarDisp (imgList) {

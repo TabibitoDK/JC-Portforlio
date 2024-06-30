@@ -1,0 +1,15 @@
+title: Temperature Mapper
+desc: 図の温度を示すアプリ。
+about:
+  p: > 
+    温度図では、温度を黒いか白いで表すことである。この温度図を使って、色お付けた。
+    <a href="https://drive.google.com/file/d/1KU8GUd7yUHv5AAnQBqcWnEPskpqxRKRZ/view?usp=drive_link">例はこちら</a> <br>
+  img:
+    - ../images/temp mapper img01.png
+    - ../images/temp mapper img02.png
+app:
+  - desc: site
+    href: https://drive.google.com/file/d/1KU8GUd7yUHv5AAnQBqcWnEPskpqxRKRZ/view?usp=drive_link
+source:
+  - desc: Github Repository
+    href: https://github.com/TabibitoDK/TemperatureVisualiser

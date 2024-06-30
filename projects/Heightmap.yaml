@@ -1,0 +1,16 @@
+title: Heightmap Visualiser
+desc: Heightmapを使って、モデルの表面の高さを示す。
+about:
+  p: > 
+    Heightmapとは、クロモ色で物体の表面の高さを示す図である。実際の3Dのモデルやゲームの中でも、物体をほんとのように見させるために使われる。
+    このアプリはそのHeightmapのデータを使って、模型の表面の高さを変える。変える方法としてはGLSLのVertex Shader を使う。
+    <a href="https://drive.google.com/file/d/1UTzQCtKQt6Y1nHsa5jhmsNNPAu6XaXbf/view?usp=drive_link">例はこちら</a> <br>
+  img:
+    - ../images/height map img01.png
+    - ../images/height map img02.png
+app:
+  - desc: site
+    href: https://drive.google.com/file/d/1KU8GUd7yUHv5AAnQBqcWnEPskpqxRKRZ/view?usp=drive_link
+source:
+  - desc: Github Repository
+    href: https://github.com/TabibitoDK/NormalMap

@@ -1,25 +1,23 @@
-title: JC Portfolio with YAML
+title: サイトの機能更新
 desc: 
   created: 11-6-2022 20:20
   edited: 11-6-2022 22:40
   by: JC
 body:
   - > 
-      JC portfolio website updated. YAML files is added to write, edit and store projects and blogs data easily. 
-      The website then renders the data with javascript.
+      サイトを更新しました。プロジェクトやブログのデータを簡単に書き込み、編集、保存できるようにYAMLファイルを追加しました。
+      ウェブサイトはjavascriptでデータをレンダリングします。
   - > 
-      According to wikipedia, YAML is a human-readable data-serialization language. It is commonly used for configuration files and 
-      in applications where data is being stored or transmitted. YAML targets many of the same communications 
-      applications as Extensible Markup Language (XML) but has a minimal syntax which intentionally differs 
-      from SGML. It uses Python-style indentation to indicate nesting.
+      wikipediaによると、YAMLは人間が読めるデータシリアライズ言語である。YAMLは一般的に設定ファイルや、データが保存されたり送信されたりする によく使われる。
+      YAMLはExtensible Markup Language (XML)と同じ XML (Extensible Markup Language)と同じ通信アプリケーションの多くを対象としている。
   - >
-      The use of YAML ease the website editor to edit and add new content. Traditionally, adding content in the html 
-      files is more complecated and time spending as html files included other data such as website layout and 
-      html tags that are not neccesary to be changed when editing website's content and when adding new contents. 
-      Thus, with the use of YAML as a language to store website content, html data such as tags are will not be 
-      ultered when editing website content and website content can be added and edited easily and fast.
+      YAMLを使うことで、Webサイトのエディタが新しいコンテンツを編集・追加しやすくなる。伝統的に、html 
+      ファイルにコンテンツを追加することはより複雑で時間を費やします。
+      htmlファイルには、ウェブサイトのコンテンツを編集するときや新しいコンテンツを追加するときに変更する必要のないウェブサイトのレイアウトやhtmlタグのような他のデータが含まれているため、従来はhtmlファイルでコンテンツを追加する方がより複雑で時間がかかっていました。
+      このように、ウェブサイトのコンテンツを保存する言語としてYAMLを使用することで、タグのようなhtmlデータは、ウェブサイトのコンテンツやウェブサイトを編集するときに変更されることはありません。
+      ウェブサイトコンテンツを編集するときにタグのようなhtmlデータは削除され、ウェブサイトコンテンツは簡単かつ高速に追加・編集できます。
   - > 
-      References: <br> 
+      参考: <br> 
       <a href="https://en.wikipedia.org/wiki/YAML">YAML from wikipedia.org</a>
 
 img: 
